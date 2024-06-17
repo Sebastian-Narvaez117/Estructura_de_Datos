@@ -1,7 +1,32 @@
-public class ListaDoblementeEnlazada extends Lista {
+public class ListaDoblementeEnlazada extends ListaBase {
 
-    public void recorrerAnterior(){
-        //Regresar al nodo anterior
+
+    @Override
+    public void insertarNodo(int posicion) {
+        // Metodo para insertar un nodo
+    }
+
+    @Override
+    public void agregarNodo(int posicion) {
+        // Metodo para agregar un nodo
+    }
+
+    @Override
+    public void eliminarNodo(int posicion) {
+        // Metodo para eliminar un nodo
+    }
+
+    @Override
+    public void recorrerSiguiente() {
+        // Metodo para recorrer el siguiente nodo
+    }
+
+    public void recorrerUltimoAInicio() {
+        // Metodo para recorrer el ultimo nodo al inicio
+    }
+
+    public void recorrerAnterior() {
+        // Implementación aquí
     }
 
 

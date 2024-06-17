@@ -1,19 +1,65 @@
-public class RojoNegro extends ArbolBinario {
+public class RojoNegro extends ArbolBinarioBase {
 
-    public void pintarRaizNegro(){
-        //Se pinta el nodo raiz de negro
+    @Override
+    public void recorridoEnOrden() {
+        // Metodo que recorre el arbol en orden
     }
 
-    public void HojaNullNegro(){
-        //Se pinta el nodo raiz de negro
+    @Override
+    public void recorridoPostOrden() {
+        //  Metodo que recorre el arbol en postorden
     }
 
-    public void pintarRamasRojo(){
-        //Se pintan los nodos ramas de rojo
+    @Override
+    public void recorridoPreOrden() {
+        // metodo que recorre el arbol en preorden
     }
 
-    public void balancearNodosNegrosRojos(){
-        //Se balancean los nodos negros en funcion de los rojos
+    @Override
+    public void recorrerDerecha() {
+        // Metodo que recorre el arbol hacia la derecha
+    }
+
+    @Override
+    public void recorrerIzquierda() {
+        // Metodo que recorre el arbol hacia la izquierda
+    }
+
+    @Override
+    public void insertarNodo() {
+        // Metodo que inserta un nodo en el arbol
+    }
+
+    @Override
+    public void agregarNodo() {
+        // Metodo que agrega un nodo al arbol
+    }
+
+    @Override
+    public void eliminarNodo() {
+        // Metodo que elimina un nodo del arbol
+    }
+
+    @Override
+    public String obtenerValorNodo() {
+        //  Metodo que obtiene el valor de un nodo
+        return "";
+    }
+
+    public void pintarRaizNegro() {
+        // Metodo que pinta la raiz de color negro
+    }
+
+    public void pintarHojasNullNegro() {
+        // Metodo que pinta las hojas unicas de negro
+    }
+
+    public void pintarRamasRojo() {
+        // Metodo que pinta las ramas de rojo
+    }
+
+    public void balancearNodosNegrosARojos() {
+        // Metodo para balancear los nodos negros con relacion a los nodos rojod
     }
 
 

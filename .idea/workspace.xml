@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c520a9-dded-45f9-91e2-5bf3306807eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArbolBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RojoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RojoNegro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718488902608</updated>
       <workItem from="1718488903816" duration="3044000" />
-      <workItem from="1718658655790" duration="1241000" />
+      <workItem from="1718658655790" duration="3712000" />
     </task>
     <servers />
   </component>
