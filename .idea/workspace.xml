@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c520a9-dded-45f9-91e2-5bf3306807eb" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ListaBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +18,12 @@
       <change beforePath="$PROJECT_DIR$/src/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaEnlazada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RojoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RojoNegro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EstructuraDato/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EstructuraDato/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sebastian-Narvaez117/Estructura_de_Datos.git",
+    "accountId": "a8e03778-95d3-4aff-a900-d7403cf98687"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+>>>>>>> Stashed changes
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -74,7 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1718488902608</updated>
       <workItem from="1718488903816" duration="3044000" />
+<<<<<<< Updated upstream
       <workItem from="1718658655790" duration="3712000" />
+=======
+      <workItem from="1718658655790" duration="5475000" />
+      <workItem from="1718715348189" duration="833000" />
+      <workItem from="1718770135156" duration="8251000" />
+      <workItem from="1718842560729" duration="8139000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
