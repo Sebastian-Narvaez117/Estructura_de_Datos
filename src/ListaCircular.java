@@ -10,9 +10,13 @@ public class ListaCircular extends ListaBase {
             finalNodo = nuevoNodo;
             inicio.setSiguiente(finalNodo);
             finalNodo.setSiguiente(inicio);
+            inicio.setAnterior(finalNodo);
+            finalNodo.setAnterior(inicio);
         } else {
             finalNodo.setSiguiente(nuevoNodo);
+            nuevoNodo.setAnterior(finalNodo);
             nuevoNodo.setSiguiente(inicio);
+            inicio.setAnterior(nuevoNodo);
             finalNodo = nuevoNodo;
         }
         posicion++;
@@ -20,10 +24,17 @@ public class ListaCircular extends ListaBase {
     }
 
     public void recorrerUltimoAlInicio() {
+        if (finalNodo == null) {
+            System.out.println("La lista está vacía.");
+            return;
+        }
+
         NodoLista temp = finalNodo;
         do {
             System.out.println(temp.getValor());
             temp = temp.getAnterior();
         } while (temp != finalNodo);
+        // Aseguramos imprimir el valor del nodo final
+        System.out.println(temp.getValor());
     }
 }
