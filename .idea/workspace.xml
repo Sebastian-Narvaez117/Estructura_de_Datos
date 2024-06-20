@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c520a9-dded-45f9-91e2-5bf3306807eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArbolBinarioBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RojoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RojoNegro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -78,6 +73,7 @@
       <workItem from="1718658655790" duration="5475000" />
       <workItem from="1718715348189" duration="833000" />
       <workItem from="1718770135156" duration="8251000" />
+      <workItem from="1718842560729" duration="4944000" />
     </task>
     <servers />
   </component>

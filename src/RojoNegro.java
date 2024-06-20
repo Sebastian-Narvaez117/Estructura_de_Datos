@@ -1,7 +1,11 @@
 public class RojoNegro extends ArbolBinarioBase {
+    enum Color { ROJO,NEGRO }
+    Color color;
 
     public RojoNegro(int valor) {
         super(valor);
+        pintarRaizNegro(getRaiz());
+        //Todos los nodos se pintaran de rojo
     }
 
 
@@ -48,13 +52,13 @@ public class RojoNegro extends ArbolBinarioBase {
         return false;
     }
 
-    public void pintarRaizNegro() {
-        // Metodo que pinta la raiz de color negro
+    public void pintarRaizNegro(Nodo raiz) {
+        if (getRaiz() != null)  {
+            System.out.println("La raiz es negra");
+        }
     }
 
-    public void pintarHojasNullNegro() {
-        // Metodo que pinta las hojas unicas de negro
-    }
+
 
     public void pintarRamasRojo() {
         // Metodo que pinta las ramas de rojo
@@ -64,5 +68,11 @@ public class RojoNegro extends ArbolBinarioBase {
         // Metodo para balancear los nodos negros con relacion a los nodos rojod
     }
 
+    public Color getColor() {
+        return color;
+    }
 
+    public void setColor(Color color) {
+        this.color = color;
+    }
 }

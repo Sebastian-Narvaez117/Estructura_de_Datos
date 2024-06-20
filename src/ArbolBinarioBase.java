@@ -1,8 +1,7 @@
 public  class ArbolBinarioBase implements ArbolBinario{
 
     private Nodo raiz;
-    private Nodo ramamayor;
-    private Nodo ramamenor;
+    private Nodo rama;
     private Nodo hoja;
 
     public ArbolBinarioBase(int valor){
@@ -68,5 +67,21 @@ public  class ArbolBinarioBase implements ArbolBinario{
 
     public void setRaiz(Nodo raiz) {
         this.raiz = raiz;
+    }
+
+    public Nodo getRama() {
+        return rama;
+    }
+
+    public void setRama(Nodo rama) {
+        this.rama = rama;
+    }
+
+    public Nodo getHoja() {
+        return hoja;
+    }
+
+    public void setHoja(Nodo hoja) {
+        this.hoja = hoja;
     }
 }

@@ -5,19 +5,28 @@ public class Main {
 
         ArbolBinarioBase arbol = new ArbolBinarioBase(10);
         arbol.agregar(5);
+        arbol.agregar(3);
         arbol.agregar(2);
+        arbol.agregar(10);
+        arbol.agregar(15);
         arbol.recorrerIzquierda();
         arbol.recorrerDerecha();
-        /*arbol.agregar(3);
-        arbol.agregar(8);
-        arbol.agregar(15);
-        arbol.agregar(16);
-        arbol.agregar(18);
-        arbol.agregar(19);
-        arbol.agregar(1);
-        arbol.recorrerDerecha();
-        System.out.println("no paren bola \n\n");
-        arbol.recorrerIzquierda();*/
+        System.out.println("Recorrido InOrden");
+        arbol.recorridoInOrden();
+        System.out.println("Recorrido PreOrden");
+        arbol.recorridoPreOrden();
+        System.out.println("Recorrido PostOrden");
+        arbol.recorridoPostOrden();
+
+        System.out.println("Arbol Rojo,Negro");
+
+        ArbolBinarioBase arbolAVL = new AVL(10);
+        arbolAVL.agregar(2);
+        arbolAVL.agregar(14);
+        arbolAVL.recorrerDerecha();
+        arbolAVL.recorrerIzquierda();
+
+
 
     }
 }
