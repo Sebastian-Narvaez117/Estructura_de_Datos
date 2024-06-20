@@ -6,7 +6,11 @@ Diagrama de clases para la implementacion en java:
 Diagrama mejorado
 ![Captura de pantalla 2024-06-17 182025](https://github.com/Sebastian-Narvaez117/Estructura_de_Datos/assets/166523171/7e030625-f09a-4337-8d4d-819781133d67)
 
-Diagrama actualizado y mejorado
+Nuevo diseño del diagrama:
+![Captura de pantalla 2024-06-19 190635](https://github.com/Sebastian-Narvaez117/Estructura_de_Datos/assets/166523171/373b4e75-be2b-4e9f-9eb7-34c9035612d9)
+
+
+Diagrama actualizado y mejorado, version final:
 ![Captura de pantalla 2024-06-20 000053](https://github.com/Sebastian-Narvaez117/Estructura_de_Datos/assets/166523171/9e71e063-8f1d-4f5e-8c61-ff1d95070732)
 
 Evidencias de la implementacion de gitflow con  la ayuda de gitKraken
