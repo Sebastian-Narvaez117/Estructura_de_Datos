@@ -27,6 +27,42 @@ public class Main {
         arbolAVL.recorrerIzquierda();
 
 
+        // Lista Enlazada Simple
+        ListaEnlazadaSimple listaSimple = new ListaEnlazadaSimple();
+        listaSimple.agregarNodo(1);
+        listaSimple.agregarNodo(2);
+        listaSimple.agregarNodo(3);
+        System.out.println("Lista Enlazada Simple:");
+        listaSimple.recorrerSiguiente();
+
+        // Lista Doblemente Enlazada
+        ListaDoblementeEnlazada listaDoble = new ListaDoblementeEnlazada();
+        listaDoble.agregarNodo(4);
+        listaDoble.agregarNodo(5);
+        listaDoble.agregarNodo(6);
+        System.out.println("Lista Doblemente Enlazada - Siguiente:");
+        listaDoble.recorrerSiguiente();
+        System.out.println("Lista Doblemente Enlazada - Anterior:");
+        listaDoble.recorrerAnterior();
+
+        // Lista Circular
+        ListaCircular listaCircular = new ListaCircular();
+        listaCircular.agregarNodo(7);
+        listaCircular.agregarNodo(8);
+        listaCircular.agregarNodo(9);
+        System.out.println("Lista Circular:");
+        listaCircular.recorrerUltimoAlInicio();
+
+        // Lista Doblemente Circular
+        ListaDoblementeCircular listaDobleCircular = new ListaDoblementeCircular();
+        listaDobleCircular.agregarNodo(10);
+        listaDobleCircular.agregarNodo(11);
+        listaDobleCircular.agregarNodo(12);
+        System.out.println("Lista Doblemente Circular - Inicio a Final:");
+        listaDobleCircular.recorrerInicioFinal();
+        System.out.println("Lista Doblemente Circular - Final a Inicio:");
+        listaDobleCircular.recorrerFinalInicio();
+
 
     }
 }
