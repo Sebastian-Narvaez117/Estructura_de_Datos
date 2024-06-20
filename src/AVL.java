@@ -1,49 +1,51 @@
 public class AVL extends ArbolBinarioBase {
 
-    @Override
-    public void recorridoEnOrden() {
-        // Implementación aquí
+    public AVL(int valor) {
+        super(valor);
     }
 
-    @Override
+    public void recorridoInOrden() {
+        this.getRaiz().recorridoInOrden();
+    }
+
+
     public void recorridoPostOrden() {
-        // Implementación aquí
+        this.getRaiz().recorridoPostOrden();
     }
 
-    @Override
+
     public void recorridoPreOrden() {
-        // Implementación aquí
+        this.getRaiz().recorridoPreOrden();
     }
 
-    @Override
+
     public void recorrerDerecha() {
-        // Implementación aquí
+       this.getRaiz().recorrerDerecha();
     }
 
-    @Override
+
     public void recorrerIzquierda() {
-        // Implementación aquí
+        this.getRaiz().recorrerIzquierda();
+    }
+
+
+
+    @Override
+    public boolean agregar(int valor) {
+        return getRaiz().agregar(valor);
+
     }
 
     @Override
-    public void insertarNodo() {
+    public boolean eliminarNodo() {
         // Implementación aquí
+        return false;
     }
 
     @Override
-    public void agregarNodo() {
+    public boolean obtenerValorNodo() {
         // Implementación aquí
-    }
-
-    @Override
-    public void eliminarNodo() {
-        // Implementación aquí
-    }
-
-    @Override
-    public String obtenerValorNodo() {
-        // Implementación aquí
-        return "";
+        return false;
     }
 
     public void balancear(int numNodosRama) {

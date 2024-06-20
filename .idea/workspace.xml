@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c520a9-dded-45f9-91e2-5bf3306807eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArbolBinario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaCircular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArbolBinarioBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RojoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RojoNegro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simple.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -42,21 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Usuario/IdeaProjects/EstructuraDato/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Usuario/IdeaProjects/EstructuraDato/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,22 +75,13 @@
       <option name="presentableId" value="Default" />
       <updated>1718488902608</updated>
       <workItem from="1718488903816" duration="3044000" />
-      <workItem from="1718658655790" duration="3712000" />
+      <workItem from="1718658655790" duration="5475000" />
+      <workItem from="1718715348189" duration="833000" />
+      <workItem from="1718770135156" duration="8251000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

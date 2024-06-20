@@ -1,49 +1,51 @@
 public class RojoNegro extends ArbolBinarioBase {
 
-    @Override
-    public void recorridoEnOrden() {
-        // Metodo que recorre el arbol en orden
+    public RojoNegro(int valor) {
+        super(valor);
     }
 
-    @Override
+
+    public void recorridoInOrden() {
+        this.getRaiz().recorridoInOrden();
+    }
+
+
     public void recorridoPostOrden() {
-        //  Metodo que recorre el arbol en postorden
+        this.getRaiz().recorridoPostOrden();
     }
 
-    @Override
+
     public void recorridoPreOrden() {
-        // metodo que recorre el arbol en preorden
+        this.getRaiz().recorridoPreOrden();
     }
 
-    @Override
+
     public void recorrerDerecha() {
-        // Metodo que recorre el arbol hacia la derecha
+       this.getRaiz().recorrerDerecha();
     }
 
-    @Override
+
     public void recorrerIzquierda() {
-        // Metodo que recorre el arbol hacia la izquierda
+        this.getRaiz().recorrerIzquierda();
     }
 
-    @Override
-    public void insertarNodo() {
-        // Metodo que inserta un nodo en el arbol
-    }
 
     @Override
-    public void agregarNodo() {
+    public boolean agregar(int valor) {
         // Metodo que agrega un nodo al arbol
+        return false;
     }
 
     @Override
-    public void eliminarNodo() {
+    public boolean eliminarNodo() {
         // Metodo que elimina un nodo del arbol
+        return false;
     }
 
     @Override
-    public String obtenerValorNodo() {
+    public boolean obtenerValorNodo() {
         //  Metodo que obtiene el valor de un nodo
-        return "";
+        return false;
     }
 
     public void pintarRaizNegro() {

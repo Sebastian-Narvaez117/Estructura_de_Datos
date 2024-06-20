@@ -1,34 +1,72 @@
-public abstract class ArbolBinarioBase implements ArbolBinario{
+public  class ArbolBinarioBase implements ArbolBinario{
 
-    protected Nodo raiz;
-    protected Nodo rama;
-    protected Nodo hoja;
+    private Nodo raiz;
+    private Nodo ramamayor;
+    private Nodo ramamenor;
+    private Nodo hoja;
+
+    public ArbolBinarioBase(int valor){
+        this.raiz = new Nodo(valor);
+
+    }
+
+
+    public void recorridoInOrden(){
+        this.raiz.recorridoInOrden();
+
+    }
+
+
+    public void recorridoPostOrden(){
+        this.raiz.recorridoPostOrden();
+
+    }
+
+
+    public  void recorridoPreOrden(){
+        this.raiz.recorridoPreOrden();
+
+    }
+
+
+    public  void recorrerDerecha(){
+        this.raiz.recorrerDerecha();
+        //this.hoja.recorrerDerecha();
+        //this.rama.recorrerDerecha();
+
+
+    }
+
+
+    public  void recorrerIzquierda(){
+        this.raiz.recorrerIzquierda();
+        //this.hoja.recorrerIzquierda();
+        //this.rama.recorrerIzquierda();
+    }
+
+
 
     @Override
-    public abstract void recorridoEnOrden();
+    public boolean agregar(int valor){
+
+        return raiz.agregar(valor);
+    }
 
     @Override
-    public abstract void recorridoPostOrden();
+    public  boolean eliminarNodo(){
+        return false;
+    }
 
     @Override
-    public abstract void recorridoPreOrden();
+    public  boolean obtenerValorNodo(){
+        return false;
+    }
 
-    @Override
-    public abstract void recorrerDerecha();
+    public Nodo getRaiz() {
+        return raiz;
+    }
 
-    @Override
-    public abstract void recorrerIzquierda();
-
-    @Override
-    public abstract void insertarNodo();
-
-    @Override
-    public abstract void agregarNodo();
-
-    @Override
-    public abstract void eliminarNodo();
-
-    @Override
-    public abstract String obtenerValorNodo();
-
+    public void setRaiz(Nodo raiz) {
+        this.raiz = raiz;
+    }
 }
