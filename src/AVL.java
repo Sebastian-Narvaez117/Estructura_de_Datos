@@ -38,18 +38,18 @@ public class AVL extends ArbolBinarioBase {
 
     @Override
     public boolean eliminarNodo() {
-        // Implementación aquí
+        // Implementación para eliminar un nodo
         return false;
     }
 
     @Override
     public boolean obtenerValorNodo() {
-        // Implementación aquí
+        // Implementación para obtener el valor de un nodo
         return false;
     }
 
     public void balancear(int numNodosRama) {
-        // Implementación aquí
+        // Implementación para balancear el árbol
     }
 
 

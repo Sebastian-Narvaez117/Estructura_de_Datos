@@ -67,7 +67,7 @@ public class RojoNegro extends ArbolBinarioBase {
     }
 
     public void balancearNodosNegrosARojos() {
-        // Metodo para balancear los nodos negros con relacion a los nodos rojod
+        // Metodo para balancear los nodos negros con relacion a los nodos rojos
     }
 
     public Color getColor() {

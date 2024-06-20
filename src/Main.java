@@ -18,13 +18,29 @@ public class Main {
         System.out.println("Recorrido PostOrden");
         arbol.recorridoPostOrden();
 
-        System.out.println("Arbol Rojo,Negro");
 
-        ArbolBinarioBase arbolAVL = new AVL(10);
+        System.out.println("\nArbol AVL:");
+        ArbolBinarioBase arbolAVL = new AVL(30);
         arbolAVL.agregar(2);
-        arbolAVL.agregar(14);
+        arbolAVL.agregar(3);
+        arbolAVL.agregar(40);
+        arbolAVL.agregar(50);
+        arbolAVL.agregar(64);
         arbolAVL.recorrerDerecha();
         arbolAVL.recorrerIzquierda();
+
+
+        System.out.println("Arbol ROJO, Negro:");
+        ArbolBinarioBase arbolrojonegro = new RojoNegro(56);
+        arbolrojonegro.agregar(2);
+        arbolrojonegro.agregar(5);
+        arbolrojonegro.agregar(7);
+        arbolrojonegro.agregar(10);
+        arbolrojonegro.agregar(60);
+        arbolrojonegro.recorridoPostOrden();
+        arbolrojonegro.recorrerDerecha();
+
+
 
 
         // Lista Enlazada Simple
