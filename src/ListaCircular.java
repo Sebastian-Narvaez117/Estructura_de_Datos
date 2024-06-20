@@ -1,29 +1,29 @@
 public class ListaCircular extends ListaBase {
 
-    private Nodo inicio;
-    private Nodo finalNodo;
+    private NodoLista finalNodo;
 
     @Override
-    public void insertarNodo(int posicion) {
-        // Metodo para insertar un nodo
+    public boolean agregarNodo(int valor) {
+        NodoLista nuevoNodo = new NodoLista(valor);
+        if (inicio == null) {
+            inicio = nuevoNodo;
+            finalNodo = nuevoNodo;
+            inicio.setSiguiente(finalNodo);
+            finalNodo.setSiguiente(inicio);
+        } else {
+            finalNodo.setSiguiente(nuevoNodo);
+            nuevoNodo.setSiguiente(inicio);
+            finalNodo = nuevoNodo;
+        }
+        posicion++;
+        return true;
     }
 
-    @Override
-    public void agregarNodo(int posicion) {
-        // Metodo para agregar un nodo
-    }
-
-    @Override
-    public void eliminarNodo(int posicion) {
-        // Metodo para eliminar un nodo
-    }
-
-    @Override
-    public void recorrerSiguiente() {
-        // Metodo para recorrer el siguiente nodo
-    }
-
-    public void recorrerUltimoAInicio() {
-        // Metodo para recorrer el ultimo nodo al inicio
+    public void recorrerUltimoAlInicio() {
+        NodoLista temp = finalNodo;
+        do {
+            System.out.println(temp.getValor());
+            temp = temp.getAnterior();
+        } while (temp != finalNodo);
     }
 }

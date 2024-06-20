@@ -61,7 +61,9 @@ public class RojoNegro extends ArbolBinarioBase {
 
 
     public void pintarRamasRojo() {
-        // Metodo que pinta las ramas de rojo
+        if(getRaiz().getIzquierda() != null) {
+            System.out.println("La rama izquierda es roja");
+        }
     }
 
     public void balancearNodosNegrosARojos() {

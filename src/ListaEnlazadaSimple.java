@@ -1,6 +1,4 @@
-public class ListaDoblementeEnlazada extends ListaBase {
-
-
+public class ListaEnlazadaSimple extends ListaBase{
     public void recorrerAnterior() {
         NodoLista temp = inicio;
         while (temp.getSiguiente() != null) {
@@ -12,7 +10,4 @@ public class ListaDoblementeEnlazada extends ListaBase {
             temp = temp.getAnterior();
         }
     }
-
-
-
 }

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c520a9-dded-45f9-91e2-5bf3306807eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ListaEnlazadaSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodoLista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArbolBinarioBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArbolBinarioBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaDoblementeEnlazada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaEnlazada.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RojoNegro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RojoNegro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +79,7 @@
       <workItem from="1718658655790" duration="5475000" />
       <workItem from="1718715348189" duration="833000" />
       <workItem from="1718770135156" duration="8251000" />
-      <workItem from="1718842560729" duration="4944000" />
+      <workItem from="1718842560729" duration="6669000" />
     </task>
     <servers />
   </component>
